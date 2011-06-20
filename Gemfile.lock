@@ -54,7 +54,6 @@ GEM
       cucumber (>= 0.10.5)
       nokogiri (>= 1.4.4)
       rack-test (>= 0.5.7)
-    database_cleaner (0.6.7)
     diff-lcs (1.1.2)
     erubis (2.6.6)
       abstract (>= 1.0.0)
@@ -148,7 +147,6 @@ DEPENDENCIES
   bson_ext
   capybara
   cucumber-rails
-  database_cleaner
   factory_girl
   mongoid
   mongoid-rspec
