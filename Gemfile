@@ -17,6 +17,8 @@ group :test do
   gem 'rspec-rails', '>= 2.0.0.beta.12'
   gem 'factory_girl'
   gem 'mongoid-rspec', :require => false
+  gem 'database_cleaner'
+  gem 'SystemTimer'
 end
 
 
