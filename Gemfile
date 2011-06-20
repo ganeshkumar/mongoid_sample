@@ -2,8 +2,23 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.7'
 
-gem "mongoid", "~> 2.0"
-gem "bson_ext", "~> 1.3"
+
+gem 'mongoid'
+gem 'bson_ext'
+
+group :development do
+  gem 'unicorn'
+  gem 'ruby-debug'
+end
+
+group :test do
+  gem 'capybara'
+  gem 'cucumber-rails'
+  gem 'rspec-rails', '>= 2.0.0.beta.12'
+  gem 'factory_girl'
+  gem 'mongoid-rspec', :require => false
+end
+
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
