@@ -45,3 +45,4 @@ module MongoidSample
     config.filter_parameters += [:password]
   end
 end
+Rails.logger = Logger.new(STDOUT)
