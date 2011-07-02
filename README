@@ -1,3 +1,5 @@
 Trying out mongodb in rails3 application.
 
 * Added Required Gems
+
+[![Build Status](https://secure.travis-ci.org/ganesh.dc@gmail.com/mongoid_sample.png)](http://travis-ci.org/ganesh.dc@gmail.com/mongoid_sample)
