@@ -8,7 +8,7 @@ gem 'bson_ext'
 
 group :development do
   gem 'unicorn'
-  gem 'ruby-debug'
+  gem 'ruby-debug19'
 end
 
 group :test do
@@ -18,7 +18,7 @@ group :test do
   gem 'factory_girl'
   gem 'mongoid-rspec', :require => false
 #  gem 'database_cleaner'
-  gem 'SystemTimer'
+#  gem "SystemTimer", "~> 1.2.3"
 end
 
 
